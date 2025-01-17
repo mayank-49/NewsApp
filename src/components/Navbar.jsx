@@ -10,22 +10,22 @@ const Navbar = ({setCategory}) => {
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
-        <li className="nav-item mx-5">
+        <li className="nav-item mx-4">
           <div className="nav-link" onClick={()=>{setCategory("technology")}}>Technology</div>
         </li>
-        <li className="nav-item mx-5">
+        <li className="nav-item mx-4">
           <div className="nav-link" onClick={()=>{setCategory("business")}}>Business</div>
         </li>
-        <li className="nav-item mx-5">
+        <li className="nav-item mx-4">
           <div className="nav-link" onClick={()=>{setCategory("health")}}>Health</div>
         </li>
-        <li className="nav-item mx-5">
+        <li className="nav-item mx-4">
           <div className="nav-link" onClick={()=>{setCategory("sports")}}>Sports</div>
         </li>
-        <li className="nav-item mx-5">
+        <li className="nav-item mx-4">
           <div className="nav-link" onClick={()=>{setCategory("entertainment")}}>Entertainment</div>
         </li>
-        <li className="nav-item mx-5">
+        <li className="nav-item mx-4">
           <div className="nav-link" onClick={()=>{setCategory("science")}}>Science</div>
         </li>
       </ul>
